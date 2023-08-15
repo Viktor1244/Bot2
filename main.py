@@ -42,24 +42,8 @@ async def ko(message: types.Message):
             random_filename = random.choice(image_files)
             with open(os.path.join(luduna, random_filename), 'rb') as file:
                 await message.reply_photo(photo=file)
-
-
-
-
-
-
-if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
+                
+                
+                    
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)    
